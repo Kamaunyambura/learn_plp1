@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            text-align: center; /* Center align section content */
+        }
+        h1, h2 {
+            margin-bottom: 10px; /* Add space below headings */
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center; /* Center align grid items */
+        }
+        .gallery img {
+            width: 200px; /* Set fixed width for images */
+            height: auto;
+            display: block; /* Ensure images don't have extra space below */
+            margin: 0 auto; /* Center align images */
+        }
+        #menu ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+        }
+        #menu ul li {
+            margin-bottom: 10px; /* Add space between menu items */
+            text-align: center; /* Center align menu item text */
+        }
+        #menu ul li img {
+            width: 150px; /* Set fixed width for menu item images */
+            height: auto;
+            display: block; /* Ensure images don't have extra space below */
+            margin: 0 auto; /* Center align images */
+        }
+    </style>
+</head>
+<body>
+    <section id="home">
+        <h1>Welcome!</h1>
+        <p>Explore content below:</p>
+        <img src="alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="Technology">
+    </section>
+
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+        <div class="gallery">
+            <img src="damian-patkowski-T-LfvX-7IVg-unsplash.jpg" alt="Savanna">
+            <img src="connor-scheidler-9OT34cGVpy8-unsplash.jpg" alt="Desert">
+            <img src="lingchor-lDy1K7RkLeA-unsplash.jpg" alt="Misty Rainforest">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><img src="kashish-lamba-p-O37cSAV_4-unsplash.jpg" alt="Burrito"> Burrito</li>
+            <li><img src="tamas-pap-68Vb4Mj-L9c-unsplash.jpg" alt="Gimbap between chopsticks"> Gimbap</li>
+            <li><img src="moonyang-lin--Dwf3_aLJLE-unsplash.jpg" alt="Chicken wings and a lemon slice"> Chicken wings</li>
+        </ul>
+    </section>
+</body>
+</html>
+
+
+
+ 
